@@ -15,7 +15,3 @@ make
 	https://davidchall.github.io/yaml-includes.html
 * CV Vs. Resume—Here Are the Differences.  
 	https://www.themuse.com/advice/cv-vs-resumehere-are-the-differences
-
-##
-* Current Resume.  
-  https://docs.google.com/document/d/1XxmRwP6AfTFHn2BLcGkL9VWwUFVFsOKEx9GwK5RCvpM
