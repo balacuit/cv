@@ -1,0 +1,85 @@
+%YAML 1.2
+#
+#
+#
+---
+$schema: schema
+jpl:
+  title: Jet Propulsion Laboratory
+  subtitle: NASA
+  abbrev: JPL
+  home_url: http://www.jpl.nasa.gov
+  location:
+    address: 4800 Oak Grove Drive
+    city: Pasadena
+    state: California
+    zip: 91101
+    country: USA
+  $apropos: definitions#apropos/3
+
+rrr:
+  title: Risk Retention Reporter
+  home_url: http://www.rrr.com
+  location:
+    address: Colorado
+    city: Pasadena
+    state: California
+    zip: 91107
+    country: USA
+  contact: James Cutts
+  $apropos: definitions#apropos/2
+
+jpl_uta:
+  title: Jet Propulsion Laboratory
+  subcontract: User Technologies and Associates
+  home_url: http://www.uta.com
+  location:
+    address: Lake Avenue
+    city: Pasadena
+    state: California
+    zip: 91107
+    country: USA
+  contact: James Cutts
+  $apropos: definitions#apropos/2
+
+cooking:
+  title: Cooking.com
+  home_url: http://cooking.com
+  location:
+    city: Santa Monica
+    state: California
+  contact: Jae Yim
+  notes: |
+    Acquired by Target.
+  $apropos: definitions#apropos/2
+
+jpl_telos:
+  title: Jet Propulsion Laboratory
+  contractor: Telos
+  home_url: http://www.uta.com
+  location:
+    address: Lake Avenue
+    city: Pasadena
+    state: California
+    zip: 91107
+    country: USA
+  contact: James Cutts
+  $apropos: definitions#apropos/0
+
+jpl_fdc:
+  title: Jet Propulsion Laboratory
+  contractor: Federal Data Corporation
+  location:
+    address: Lake Avenue
+    city: Pasadena
+    state: California
+    country: USA
+  $apropos: definitions#apropos/0
+
+cpp:
+  title: California Polytechnic University, Pomona
+  location:
+    city: Pomona
+    state: California
+  contact: Len Troncale
+  $apropos: definitions#apropos/1
