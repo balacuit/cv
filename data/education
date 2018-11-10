@@ -1,0 +1,60 @@
+%YAML 1.2
+#
+#
+#
+---
+$schema: schema
+mscs:
+  abbrev: OMSCS
+  school: Georgia Institute of Technology
+  program: Online Masters of Science in Computer Science
+  location: Atlanta, Georgia
+  end: 2019-06-01
+  start: 2017-08-01
+  completed: false
+  $apropos: definitions#apropos/4
+mba:
+  abbrev: UoR
+  school: University of Redlands
+  program: JPL Satelite Cohort 2012
+  location: Redlands, California
+  degree: M.S. in Business Administration
+  end: 2012-01-01
+  start: 2010-01-01
+  completed: true
+  $apropos: definitions#apropos/4
+bscs:
+  abbrev: Cal Poly, Pomona
+  school: California Polytechnic University, Pomona
+  program: College of Computer Science
+  location: Pomona, California
+  degree: B.S. in Computer Science
+  end: 1996-01-01
+  start: 1994-01-01
+  completed: true
+  $apropos: definitions#apropos/4
+aa:
+  abbrev: Mt SAC
+  school: Mount San Antonio College
+  program: General Education
+  location: Walnut, California
+  degree: Associates in Arts
+  end: 1994-01-01
+  start: 1991-01-01
+  completed: true
+  $apropos: definitions#apropos/1
+9-12:
+  abbrev: CHS
+  school: Claremont High school
+  location: Claremont, California
+  end: 1990-06-01
+  start: 1987-08-01
+  completed: true
+  $apropos: definitions#apropos/0
+5-8:
+  abbrev: OLA
+  school: Our Lady of the Assumption
+  location: Claremont, California
+  end: 1987-06-01
+  completed: true
+  $apropos: definitions#apropos/0
