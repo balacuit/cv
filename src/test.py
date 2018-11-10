@@ -9,7 +9,7 @@ def default(o):
     return o.strftime("%Y-%b-%d")
 
 file_name = "../data/definitions"
-file_name = "../data/skills"
+file_name = "../data/projects"
 #file_name = "resume.yaml"
 with open(file_name, "r") as f:
     dataMap = yaml.safe_load(f)

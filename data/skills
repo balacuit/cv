@@ -6,18 +6,28 @@
 $schema: schema
 
 languages:
+  graphql:
+    abbrev: GraphQL
+    name: Graph Query Language
+    apropos: data/definitions#/apropos/2
+    mastery: data/definitions#/mastery/0
+  sql:
+    abbrev: SQL
+    name: Structured Query Language
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/3
   python_3.7:
-   abbrev: Python 3.7
+    abbrev: Python 3.7
     name: Python Programming Language
     version: 3.7
-    apropos: data/definitions#/apropos/3
+    apropos: data/definitions#/apropos/0
     mastery: data/definitions#/mastery/2
   python_3.6:
     apropos: 3
     abbrev: Python 3.6
     name: Python Programming Language
     version: 3.6
-    apropos: data/definitions#/apropos/3
+    apropos: data/definitions#/apropos/2
     mastery: data/definitions#/mastery/2
   python_2.7:
     abbrev: Python 2.7
@@ -41,11 +51,59 @@ languages:
     name: ColdFusion Programming Language
     apropos: data/definitions#/apropos/2
     mastery: data/definitions#/mastery/3
+  uml:
+    abbrev: UML
+    name: Unified Modeling Language
+    version: 2
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/2
   php:
     abbrev: PHP
     name: PHP Web Programming Language
     apropos: data/definitions#/apropos/1
     mastery: data/definitions#/mastery/2
+  asp:
+    abbrev: ASP
+    name: Active Server Pages Language
+    vendor: Microsoft
+    apropos: data/definitions#/apropos/1
+    mastery: data/definitions#/mastery/2
+  vb:
+    abbrev: Visual Basic
+    name: Visual Basic Language
+    vendor: Microsoft
+    apropos: data/definitions#/apropos/1
+    mastery: data/definitions#/mastery/2
+
+format:
+  yaml:
+    abbrev: YAML
+    name: Yet Another Markup Language
+    apropos: data/definitions#/apropos/1
+    mastery: data/definitions#/mastery/2
+  json:
+    abbrev: JSON
+    name: Javascript Object Notation
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/3
+  jsonschema:
+    name: JSON Schema
+    apropos: data/definitions#/apropos/2
+    mastery: data/definitions#/mastery/3
+  html:
+    abbrev: HTML
+    name: Hypertext Markup Language
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/3
+  swagger:
+    name: Swagger
+    apropos: data/definitions#/apropos/2
+    mastery: data/definitions#/mastery/3
+  xml:
+    abbrev: XML
+    name: Extensible Markup Language
+    apropos: data/definitions#/apropos/2
+    mastery: data/definitions#/mastery/3
 
 frameworks:
   django:
@@ -63,7 +121,7 @@ frameworks:
   angular_1:
     abbrev: Angular
     name: Angular
-    version: 1.0
+    version: 1.x
     apropos: data/definitions#/apropos/2
     mastery: data/definitions#/mastery/2
   react:
@@ -79,6 +137,29 @@ frameworks:
     vendor: Microsoft
     apropos: data/definitions#/apropos/3
     mastery: data/definitions#/mastery/2
+  flask:
+    abbrev: Flask
+    name: Flask Web Framework
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/2
+  dotnet:
+    abbrev: .NET
+    name: Dot Net Framework
+    apropos: data/definitions#/apropos/2
+    mastery: data/definitions#/mastery/2
+  flex:
+    abbrev: Flex
+    name: Flex Framework
+    vendor: Adobe
+    apropos: data/definitions#/apropos/1
+    mastery: data/definitions#/mastery/2
+  flash:
+    abbrev: Flash
+    name: Flash Platforms
+    vendor: Adobe
+    apropos: data/definitions#/apropos/1
+    mastery: data/definitions#/mastery/1
+
 
 platforms:
   docker:
@@ -101,6 +182,33 @@ platforms:
     name: CentOS Linux
     apropos: data/definitions#/apropos/3
     mastery: data/definitions#/mastery/2
+  kubernetes:
+    name: Kubernetes Orchestration
+    apropos: data/definitions#/apropos/2
+    mastery: data/definitions#/mastery/1
+  macos:
+    name: Mac Operating System
+    vendor: Apple
+    version: 10.x
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/2
+  windows:
+    name: Windows Operating System
+    vendor: Microsoft
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/2
+  aws:
+    abbrev: AWS
+    name: Amazon Web Services
+    vendor: Amazon
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/2
+  govcloud:
+    abbrev: AWS/GovCloud
+    name: GovCloud on Amazon Web Services
+    vendor: Amazon
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/2
 
 databases:
   arango_3:
@@ -115,6 +223,24 @@ databases:
     version: 5.x
     apropos: data/definitions#/apropos/3
     mastery: data/definitions#/mastery/3
+  mssql:
+    abbrev: MSSQL
+    name: SQL Server Database
+    version: 5.x
+    vendor: Microsoft
+    apropos: data/definitions#/apropos/2
+    mastery: data/definitions#/mastery/2
+  sqlite:
+    abbrev: SQLite
+    name: SQLite database
+    apropos: data/definitions#/apropos/1
+    mastery: data/definitions#/mastery/3
+  oracle:
+    abbrev: oracle
+    name: Oracle RDBMS
+    vendor: Oracle
+    apropos: data/definitions#/apropos/1
+    mastery: data/definitions#/mastery/2
 
 tools:
   git:
@@ -146,15 +272,52 @@ tools:
     name: Subversion SCM
     apropos: data/definitions#/apropos/2
     mastery: data/definitions#/mastery/1
+  drawio:
+    name: Draw.io graphing tool
+    apropos: data/definitions#/apropos/2
+    mastery: data/definitions#/mastery/3
+  jira:
+    name: Jira Issue Tracking tool
+    vendor: Atlassian
+    apropos: data/definitions#/apropos/2
+    mastery: data/definitions#/mastery/3
+  confluence:
+    name: Confluence tool
+    vendor: Atlassian
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/3
+  jupyter:
+    name: Jupyter Notebook
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/2
+  mysqlwb:
+    name: MySQL Workbench
+    apropos: data/definitions#/apropos/2
+    mastery: data/definitions#/mastery/3
+  jquery:
+    name: JQuery
+    apropos: data/definitions#/apropos/1
+    mastery: data/definitions#/mastery/2
+  xerces:
+    abbrev: Xerces
+    name: Xerces XML API
+    vendor: Apache
+    apropos: data/definitions#/apropos/1
+    mastery: data/definitions#/mastery/2
 
-processes:
+
+practices:
+  scrum:
+    name: Scrum
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/2
   rup:
     name: Rational Unified Process
     apropos: data/definitions#/apropos/2
     mastery: data/definitions#/mastery/2
-  scrum:
-    name: Scrum
-    apropos: data/definitions#/apropos/3
+  mvc:
+    name: Model View Controller
+    apropos: data/definitions#/apropos/2
     mastery: data/definitions#/mastery/2
   tdd:
     name: Test Driven Development
@@ -164,3 +327,8 @@ processes:
     name: Unit Testing
     apropos: data/definitions#/apropos/3
     mastery: data/definitions#/mastery/1
+  ajax:
+    abbrev: AJAX
+    name: Asynchronous Javascript and XML
+    apropos: data/definitions#/apropos/1
+    mastery: data/definitions#/mastery/3

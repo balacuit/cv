@@ -1,0 +1,23 @@
+%YAML 1.2
+#
+#
+#
+---
+$schema: schema
+address:
+  city: Pasadena
+  state: California
+  zip: 91107
+phone:
+  - 626-644-7159
+email: 
+  - cbalacuit@acm.org
+  - cbalacuit3@gatech.edu
+github:
+  name: balacuit
+  url: https://github.com
+  root: /
+linkedin:
+  name: carlosbalacuit
+  url: http://www.linkedin.com
+  root: /in/

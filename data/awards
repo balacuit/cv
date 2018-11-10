@@ -1,0 +1,66 @@
+%YAML 1.2
+#
+#
+#
+---
+- type: Team Bonus Award
+  date: 2018-01-01
+  title: JPL Source Inspection Development Team
+- type: Discovery Bonus Award
+  date: 2018-01-01
+  title: Integrated Modeling Environment Development Team
+- type: NASA Honors Award
+  date: 2017-01-01
+  title: JPL Hybrid-Cloud Implementation Team
+- type: Team Bonus Award
+  date: 2017-01-01
+  title: Cost Analysis Database Software Improvement Team
+- type: Discovery Bonus Award
+  date: 2015-01-01
+  title: Integrated Modeling Environment prototype for Team X
+- date: 2014-01-01
+  type: Team Bonus Award
+  title: JPL Cares! Program
+- date: 2013-01-01
+  type: Team Bonus Award
+  title: AFS Web Migration Team
+- date: 2012-01-01
+  type: Mariner Award
+  title: NASA TechPort
+- date: 2011-01-01
+  type: NASA Honors Award
+  title: JPL Software Quality Improvement Team
+- date: 2011-01-01
+  type: Mariner Award
+  title: Integrated Mission Program and Core Technologies
+- date: 2009-01-01
+  type: Spot Award
+  description:  |
+    for leadership/mentoring in the Web Application Development group
+- date: 2009-01-01
+  type: NASA Honors Award
+  title: Work Agreement System Development Team
+- date: 2008-01-01
+  type: Team Bonus Award
+  title: Work Authorization System Development Team
+- date: 2008-01-01
+  type: NASA Honors Award
+  title: JPL InsideJPL Portal Team
+- date: 2006-01-01
+  type: Team Bonus Award
+  title: Web Development Team
+- date: 2005-01-01
+  type: Team Bonus Award
+  title: TDA/OTIS Development Team
+- date: 2005-01-01
+  type: Spot Award 
+  title: Web Applications Development Team
+- date: 2004-01-01
+  type: NASA Honors Award (2004)
+  title: Mars Exploration Rover Mission System Development Management Team
+- date: 2003-01-01
+  type: Spot Award
+  title: Web Applications Development Team
+- date: 2003-01-01
+  type: Certification Award
+  title: Advanced Macromedia ColdFusion Developer

@@ -1,0 +1,21 @@
+%YAML 1.2
+#
+#
+#
+---
+$schema: schema
+data:
+- name: Pottery
+  mastery: data/definitions#/mastery/4
+- name: Calligraphy
+  mastery: data/definitions#/mastery/3
+- name: Postcrossing
+  mastery: data/definitions#/mastery/3
+- name: Archery
+  mastery: data/definitions#/mastery/3
+- name: Bicycling
+  mastery: data/definitions#/mastery/3
+- name: Geocaching
+  mastery: data/definitions#/mastery/3
+- name: Blacksmithing
+  mastery: data/definitions#/mastery/1
