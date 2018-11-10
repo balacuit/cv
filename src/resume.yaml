@@ -1,9 +1,16 @@
+%YAML 1.2
+#
+#
+#
+---
 name:
   first: Carlos
   middle: P
   last: Balacuit
 contact:
   $ref: data/contact
+  apropos: { min: 1, max: 2 }
+  mastery: { min: 2, max: 3 }
   links:
     - email
     - github
@@ -14,11 +21,9 @@ summary: |
   and what are you looking for.
 education:
   $ref: data/education
-  relevance: 
-    min: 2
-    max: 5
-  proficiency:
-    min: 2
-    max: 5
+  apropos: { min: 1, max: 2 }
+  mastery: { min: 2, max: 3 }
 projects:
   $ref: data/projects
+  apropos: { min: 1, max: 2 }
+  mastery: { min: 2, max: 3 }

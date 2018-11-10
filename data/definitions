@@ -1,0 +1,22 @@
+%YAML 1.2
+#
+#
+#
+---
+apropos:
+  description: how appropriate is this to display.
+  rank:
+    - name: irrelevant
+      desc: Withhold from mentioning
+    - name: optional
+    - name: mentionable
+    - name: highlight
+
+mastery:
+  description: Level of mastery in this skill.
+  rank:
+    - name: unfamiliar
+      desc: Unskilled
+    - name: novice
+    - name: competent
+    - name: expert

@@ -1,0 +1,166 @@
+%YAML 1.2
+#
+#
+#
+---
+$schema: schema
+
+languages:
+  python_3.7:
+   abbrev: Python 3.7
+    name: Python Programming Language
+    version: 3.7
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/2
+  python_3.6:
+    apropos: 3
+    abbrev: Python 3.6
+    name: Python Programming Language
+    version: 3.6
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/2
+  python_2.7:
+    abbrev: Python 2.7
+    name: Python Programming Language
+    version: 2.7
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/2
+  csharp:
+    abbrev: C#
+    name: C# Programming Language
+    vendor: Microsoft
+    apropos: data/definitions#/apropos/2
+    mastery: data/definitions#/mastery/1
+  java:
+    abbrev: Java
+    name: Java Programming Language
+    apropos: data/definitions#/apropos/2
+    mastery: data/definitions#/mastery/2
+  cfml:
+    abbrev: CFML
+    name: ColdFusion Programming Language
+    apropos: data/definitions#/apropos/2
+    mastery: data/definitions#/mastery/3
+  php:
+    abbrev: PHP
+    name: PHP Web Programming Language
+    apropos: data/definitions#/apropos/1
+    mastery: data/definitions#/mastery/2
+
+frameworks:
+  django:
+    apropos: 3
+    abbrev: Django
+    name: Django Web Framework
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/3
+  drf:
+    abbrev: DRF
+    name: Django Rest Framework
+    apropos: data/definitions#/apropos/2
+    mastery: data/definitions#/mastery/2
+    mastery: 4
+  angular_1:
+    abbrev: Angular
+    name: Angular
+    version: 1.0
+    apropos: data/definitions#/apropos/2
+    mastery: data/definitions#/mastery/2
+  react:
+    apropos: 3
+    abbrev: React
+    name: React
+    vendor: Facebook
+    apropos: data/definitions#/apropos/2
+    mastery: data/definitions#/mastery/1
+  openxml:
+    abbrev: OpenXML
+    name: OpenXML Framework
+    vendor: Microsoft
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/2
+
+platforms:
+  docker:
+    abbrev: Docker
+    name: Docker
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/2
+  redhat:
+    abbrev: RedHat
+    name: Red Hat Linux
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/2
+  ubuntu:
+    abbrev: Ubuntu
+    name: Ubuntu Linux
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/2
+  centos:
+    abbrev: CentOS
+    name: CentOS Linux
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/2
+
+databases:
+  arango_3:
+    abbrev: ArangoDB
+    name: Arango Database
+    version: 3.x
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/2
+  mysql_5:
+    abbrev: MySQL 5
+    name: MySQL Database
+    version: 5.x
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/3
+
+tools:
+  git:
+    name: git SCM
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/3
+  github:
+    name: Github
+    url: http://github.com
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/3
+  gh4jpl:
+    name: Github Enterprise for JPL
+    url: http://github.jpl.nasa.gov
+    vendor: Github
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/3
+  photoshop:
+    name: Photoshop
+    vendor: Adobe
+    apropos: data/definitions#/apropos/1
+    mastery: data/definitions#/mastery/2
+  illustrator:
+    name: Illustrator
+    vendor: Adobe
+    apropos: data/definitions#/apropos/1
+    mastery: data/definitions#/mastery/1
+  subversion:
+    name: Subversion SCM
+    apropos: data/definitions#/apropos/2
+    mastery: data/definitions#/mastery/1
+
+processes:
+  rup:
+    name: Rational Unified Process
+    apropos: data/definitions#/apropos/2
+    mastery: data/definitions#/mastery/2
+  scrum:
+    name: Scrum
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/2
+  tdd:
+    name: Test Driven Development
+    apropos: data/definitions#/apropos/2
+    mastery: data/definitions#/mastery/1
+  unittest:
+    name: Unit Testing
+    apropos: data/definitions#/apropos/3
+    mastery: data/definitions#/mastery/1
