@@ -1,0 +1,25 @@
+%YAML 1.2
+name:
+  first: Carlos
+  middle: P
+  last: Balacuit
+contact:
+  $ref: data/contact
+  links:
+    - email
+    - github
+    - linkedin
+skills:
+  $ref: data/skills
+education:
+  $ref: data/education
+companies:
+  $ref: data/companies
+projects:
+  $ref: data/projects
+awards:
+  $ref: data/awards 
+interests:
+  $ref: data/interests
+references:
+  $ref: data/references

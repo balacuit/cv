@@ -16,8 +16,9 @@ install:		## Install prerequisities
 # ref: http://marmelab.com/blog/2016/02/29/auto-documented-makefile.html
 # ----------------------------------------------------------------------------
 help:						## (DEFAULT) This help information.
-	@echo $(abspath $(lastword $(MAKEFILE_LIST)))
 	@echo ====================================================================
+	@echo Using $(abspath $(lastword $(MAKEFILE_LIST)))
+	@echo
 	@grep -E '^## .*$$'  \
 		$(MAKEFILE_LIST)  \
 		| awk 'BEGIN { FS="## " }; {printf "\033[33m%-20s\033[0m \n", $$2}'

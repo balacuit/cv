@@ -2,23 +2,23 @@ name:
   first: Carlos
   middle: P
   last: Balacuit
+contact:
+  $ref: data/contact
+  links:
+    - email
+    - github
+    - linkedin
 title: Senior Software Engineer
 summary: |
   Introduction paragraph, who are you, what motivates you,
   and what are you looking for.
-contact: 
-  relevance: 
-    min: 2
-    max: 5
-  proficiency:
-    min: 2
-    max: 5
-  $ref: "#/data/contact"
 education:
+  $ref: data/education
   relevance: 
     min: 2
     max: 5
   proficiency:
     min: 2
     max: 5
-  $ref: "#/data/education"
+projects:
+  $ref: data/projects
