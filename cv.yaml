@@ -1,0 +1,21 @@
+%YAML 1.2
+name:
+  first: Carlos
+  middle: P
+  last: Balacuit
+contact:
+  $ref: "#/data/contact"
+education:
+  $ref: "#/data/education"
+projects:
+  $ref: "$/data/projects"
+companies:
+  $ref: "$/data/companies"
+skills:
+  $ref: "$/data/skills"
+awards:
+  $ref: "#/data/awards" 
+references:
+  $ref: "#/data/references"
+interests:
+  $ref: "#/data/interests"
