@@ -11,13 +11,17 @@ make
 
 * CV Vs. Resume—Here Are the Differences.  
 	https://www.themuse.com/advice/cv-vs-resumehere-are-the-differences
-* PyResume Builder.  
-	https://pyresume.readthedocs.io
 
 ### Generators
 
-* Resume Generator  
+* PyResume Builder.  
+	https://pyresume.readthedocs.io
+* Resume Generator.  
 	https://github.com/jsidrach/resume-generator
+* My YAML cv and resume.  
+	https://github.com/bamos/cv
+* Barn (A resume/CV generator).  
+	https://github.com/Maples7/barn
 
 ### YAML
 
