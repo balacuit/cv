@@ -1,7 +1,11 @@
 %YAML 1.2
+# Awards
 #
-#
-#
+# - type: { Bonus Award | Discovery Bonus Award | NASA Honors Award | .. }
+#   date: { date the award was issued }
+#   contribution: { team, individual }
+#   title: { title of the award }
+#   description: { description of the award }
 ---
 - type: Team Bonus Award
   date: 2018-01-01

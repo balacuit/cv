@@ -1,11 +1,11 @@
 %YAML 1.2
-#
+# Definitions
 #
 #
 ---
 $about:
   apropos:
-    description: how appropriate is this to display.
+    description: Level of relevance to highlight this.
   mastery:
     description: Level of mastery in this skill.
 

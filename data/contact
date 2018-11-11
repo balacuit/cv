@@ -1,7 +1,32 @@
 %YAML 1.2
+# Contact Information
 #
+# location:
+#   address1:
+#   address2:
+#   city:
+#   state:
+#   zip:
+#   country:
+# phone:
+#   home: {phone number}
+#   work: {phone number}
+#   fax: {phone number}
+#   mobile: {phone number}
+# email:
+#   - {email address}
+# github:
+#   name: {username of github account}
+#   url: {url of the github}
+#   root: {root of the url}
+# linkedin:
+#   name: {username of linkedin account}
+#   url: {url of the linkedin}
+#   root: {root of the url}
 #
-#
+# type: object
+# properties:
+#   - 
 ---
 $schema: schema
 address:
@@ -9,7 +34,7 @@ address:
   state: California
   zip: 91107
 phone:
-  - 626-644-7159
+  home: 626-644-7159
 email: 
   - cbalacuit@acm.org
   - cbalacuit3@gatech.edu

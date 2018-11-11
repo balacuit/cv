@@ -1,7 +1,56 @@
 %YAML 1.2
-#
+# Publications
 #
 #
 ---
-$schema: schema
-data:
+- title: |
+    Foundry Furnace: A Web-based Concurrent Engineering Environment for Concept Design & Analysis
+  category: NASA New Technology Report
+  id: 50281
+  date: Pending
+  description: |
+    The primary objectives of the Foundry Furnace software are:
+    (1) Provide a state of the art environment for the design, modeling, & analysis of new concepts
+    (2) Improve technical & documentation quality of formulation concepts & designs
+    (3) Enable new services to support emerging mission types
+    (4) Seamlessly transfer products across A-Team, Team X, proposals, and into implementation
+    (5) Reduce cost & schedule of early formulation activities
+    (6) Comply with current institutional/security practices
+- title:   A RESTful Web service connector for Phoenix Analysis Server
+  category: NASA New Technology Report
+  id: 49634
+  date: 2014-09-04
+  url: https://www.techbriefs.com/component/content/article/tb/techbriefs/information-sciences/21653
+  description: |
+    The software enables remote execution of engineering design models in heterogeneous distributed execution environments. It exposes its functionality as a RESTful web service, which is served using
+    the NodeJS JavaScript runtime. Applications can use this software to specify inputs, trigger remote execution, and retrieve outputs from models deployed in the Phoenix Analysis Server environment.
+- title: IMPACT - Integration of Missions, Programs and Core Technologies
+  category: NASA New Technology Report
+  id: 40353
+  date: 2011-07-28
+  url: https://www.techbriefs.com/component/content/article/tb/techbriefs/software/15485
+  description: |
+    IMPaCT enables comprehensive information on current NASA missions, prospective future missions, and the technologies that NASA is investing in, or considering investing in, to be accessed from a
+    common Web-based interface. It allows dependencies to be established between missions and technology, and from this, the benefits of investing in individual technologies can be determined.
+- title: Rover Sequencing and Visualization Program (RSVP)
+  category: NASA New Technology Report
+  id: 40353
+  date: 2003-04-25
+  url: https://www.techbriefs.com/component/content/article/tb/techbriefs/information-sciences/767
+  description: |
+    The Rover Sequencing and Visualization Program (RSVP) will be used in the Mars Exploration Rovers (MER) mission for downlink data visualization and command sequence generation.
+- title: Rover Sequencing and Visualization Program (RSVP)
+  status: beta
+  category: NASA New Technology Report
+  id: 30845
+  date: 2002-10-08
+  description: |
+    The Rover Sequencing and Visualization Program (RSVP) will be used in the Mars Exploration Rovers (MER) mission for downlink data visualization and command sequence generation.
+- title: jspice.jar
+  status: beta
+  category: NASA New Technology Report
+  id: 30714
+  date: 2002-07-16
+  description: |
+    Allows Java software to access JPL's C SPICE libraries.  (The SPICE libraries and supporting kernels themselves are not included;  jspice is just a glue layer that allows Java to talk to already-installed
+    SPICE libraries.)

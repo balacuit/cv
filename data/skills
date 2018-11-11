@@ -6,50 +6,61 @@
 $schema: schema
 
 languages:
-  graphql:
-    abbrev: GraphQL
-    name: Graph Query Language
+  asp: 
+    abbrev: ASP
+    name: Active Server Pages Language
+    vendor: Microsoft
+    $apropos: definitions#/apropos/1
+    $mastery: definitions#/mastery/2
+  cfml:
+    abbrev: CFML
+    name: ColdFusion Programming Language
     $apropos: definitions#/apropos/2
-    $mastery: definitions#/mastery/0
-  sql:
-    abbrev: SQL
-    name: Structured Query Language
-    $apropos: definitions#/apropos/3
     $mastery: definitions#/mastery/3
-  python_3.7:
-    abbrev: Python 3.7
-    name: Python Programming Language
-    version: 3.7
-    $apropos: definitions#/apropos/0
-    $mastery: definitions#/mastery/2
-  python_3.6:
-    $apropos: 3
-    $abbrev: Python 3.6
-    name: Python Programming Language
-    version: 3.6
-    $apropos: definitions#/apropos/2
-    $mastery: definitions#/mastery/2
-  python_2.7:
-    abbrev: Python 2.7
-    name: Python Programming Language
-    version: 2.7
-    $apropos: definitions#/apropos/3
-    $mastery: definitions#/mastery/2
   csharp:
     abbrev: C#
     name: C# Programming Language
     vendor: Microsoft
     $apropos: definitions#/apropos/2
     $mastery: definitions#/mastery/2
+  graphql:
+    abbrev: GraphQL
+    name: Graph Query Language
+    $apropos: definitions#/apropos/3
+    $mastery: definitions#/mastery/0
   java:
     abbrev: Java
     name: Java Programming Language
-    $apropos: definitions#/apropos/2
+    $apropos: definitions#/apropos/3
     $mastery: definitions#/mastery/2
-  cfml:
-    abbrev: CFML
-    name: ColdFusion Programming Language
-    $apropos: definitions#/apropos/2
+  lisp:
+    abbrev: Lisp
+    name: Lisp Programming Language
+    $apropos: definitions#/apropos/0
+    $mastery: definitions#/mastery/3
+  python_3.7:
+    abbrev: Python 3.7
+    name: Python Programming Language
+    version: 3.7
+    $apropos: definitions#/apropos/3
+    $mastery: definitions#/mastery/2
+  python_3.6:
+    $apropos: 3
+    $abbrev: Python 3.6
+    name: Python Programming Language
+    version: 3.6
+    $apropos: definitions#/apropos/5
+    $mastery: definitions#/mastery/2
+  python_2.7:
+    abbrev: Python 2.7
+    name: Python Programming Language
+    version: 2.7
+    $apropos: definitions#/apropos/5
+    $mastery: definitions#/mastery/2
+  sql:
+    abbrev: SQL
+    name: Structured Query Language
+    $apropos: definitions#/apropos/3
     $mastery: definitions#/mastery/3
   uml:
     abbrev: UML
@@ -62,18 +73,13 @@ languages:
     name: PHP Web Programming Language
     $apropos: definitions#/apropos/1
     $mastery: definitions#/mastery/2
-  asp:
-    abbrev: ASP
-    name: Active Server Pages Language
-    vendor: Microsoft
-    $apropos: definitions#/apropos/1
-    $mastery: definitions#/mastery/2
   vb:
     abbrev: Visual Basic
     name: Visual Basic Language
     vendor: Microsoft
     $apropos: definitions#/apropos/1
     $mastery: definitions#/mastery/2
+
 
 format:
   json:
@@ -258,6 +264,38 @@ databases:
     $mastery: definitions#/mastery/2
 
 tools:
+  authorware:
+    abbrev: authorware
+    name: Authorware
+    vendor: MacroMind
+    $apropos: definitions#/apropos/0
+    $mastery: definitions#/mastery/2
+  confluence:
+    name: Confluence tool
+    vendor: Atlassian
+    $apropos: definitions#/apropos/3
+    $mastery: definitions#/mastery/3
+  drawio:
+    name: Draw.io graphing tool
+    $apropos: definitions#/apropos/2
+    $mastery: definitions#/mastery/3
+  emacs:
+    abbrev: Emacs
+    name: Emacs
+    vendor: GNU
+    $apropos: definitions#/apropos/3
+    $mastery: definitions#/mastery/3
+  eclipse:
+    abbrev: Eclipse
+    name: Eclipse IDE
+    $apropos: definitions#/apropos/1
+    $mastery: definitions#/mastery/3
+  gh4jpl:
+    name: Github Enterprise for JPL
+    url: http://github.jpl.nasa.gov
+    vendor: Github
+    $apropos: definitions#/apropos/3
+    $mastery: definitions#/mastery/3
   git:
     name: git SCM
     $apropos: definitions#/apropos/3
@@ -267,63 +305,59 @@ tools:
     url: http://github.com
     $apropos: definitions#/apropos/3
     $mastery: definitions#/mastery/3
-  gh4jpl:
-    name: Github Enterprise for JPL
-    url: http://github.jpl.nasa.gov
-    vendor: Github
-    $apropos: definitions#/apropos/3
-    $mastery: definitions#/mastery/3
-  photoshop:
-    name: Photoshop
-    vendor: Adobe
-    $apropos: definitions#/apropos/1
-    $mastery: definitions#/mastery/2
   illustrator:
     name: Illustrator
     vendor: Adobe
     $apropos: definitions#/apropos/1
     $mastery: definitions#/mastery/1
-  subversion:
-    name: Subversion SCM
-    $apropos: definitions#/apropos/2
-    $mastery: definitions#/mastery/1
-  drawio:
-    name: Draw.io graphing tool
-    $apropos: definitions#/apropos/2
+  intellij:
+    abbrev: intellij
+    name: intellij IDE
+    vendor: JetBrains
+    $apropos: definitions#/apropos/1
     $mastery: definitions#/mastery/3
   jira:
     name: Jira Issue Tracking tool
     vendor: Atlassian
     $apropos: definitions#/apropos/2
     $mastery: definitions#/mastery/3
-  confluence:
-    name: Confluence tool
-    vendor: Atlassian
-    $apropos: definitions#/apropos/3
-    $mastery: definitions#/mastery/3
+  jquery:
+    name: JQuery
+    $apropos: definitions#/apropos/1
+    $mastery: definitions#/mastery/2
   jupyter:
     name: Jupyter Notebook
     $apropos: definitions#/apropos/3
+    $mastery: definitions#/mastery/2
+  photoshop:
+    name: Photoshop
+    vendor: Adobe
+    $apropos: definitions#/apropos/1
     $mastery: definitions#/mastery/2
   mysqlwb:
     name: MySQL Workbench
     $apropos: definitions#/apropos/2
     $mastery: definitions#/mastery/3
-  jquery:
-    name: JQuery
+  msvsc:
+    abbrev: MS Visual Studio Code
+    name: Visual Studio Code
+    vendor: Microsoft
     $apropos: definitions#/apropos/1
     $mastery: definitions#/mastery/2
+  sublime:
+    abbrev: Sublime
+    name: SublimeText
+    $apropos: definitions#/apropos/3
+    $mastery: definitions#/mastery/3
+  subversion:
+    name: Subversion SCM
+    $apropos: definitions#/apropos/2
+    $mastery: definitions#/mastery/1
   xerces:
     abbrev: Xerces
     name: Xerces XML API
     vendor: Apache
     $apropos: definitions#/apropos/1
-    $mastery: definitions#/mastery/2
-  authorware:
-    abbrev: authorware
-    name: Authorware
-    vendor: MacroMind
-    $apropos: definitions#/apropos/0
     $mastery: definitions#/mastery/2
 
 

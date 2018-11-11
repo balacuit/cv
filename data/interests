@@ -1,21 +1,48 @@
 %YAML 1.2
-#
+# Interests
 #
 #
 ---
 $schema: schema
-data:
+list:
+- name: Computing
+  orgs:
+      - name: Association of Computing Machinery
+        url: http://www.acm.org
+        affiliation: member
+        start: 1994
+  $mastery: definitions#/mastery/3
 - name: Pottery
+  orgs:
+    - name: Xiem Clay Center studio
+      url: http://xiemclaycenter.com
+      affiliation: student and member
   $mastery: definitions#/mastery/4
 - name: Calligraphy
   $mastery: definitions#/mastery/3
 - name: Postcrossing
+  orgs:
+    - name: Postcrossing
+      url: http://postcrossing.com
+      affiliation: member
   $mastery: definitions#/mastery/3
 - name: Archery
+  orgs:
+    - name: Pasadena Roving Archers
+      url: https://www.rovingarchers.com
+      affiliation: student and member
   $mastery: definitions#/mastery/3
 - name: Bicycling
   $mastery: definitions#/mastery/3
 - name: Geocaching
+  orgs:
+    - name: Geocaching
+      url: http://www.geocaching.com
+      affiliation: member
   $mastery: definitions#/mastery/3
 - name: Blacksmithing
+  orgs:
+      - name: Adam's Forge
+        url: http://www.adamsforge.org
+        affiliation: student
   $mastery: definitions#/mastery/1

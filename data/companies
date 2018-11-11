@@ -1,9 +1,8 @@
 %YAML 1.2
-#
+# Companies
 #
 #
 ---
-$schema: schema
 jpl:
   title: Jet Propulsion Laboratory
   subtitle: NASA
