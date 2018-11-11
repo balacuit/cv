@@ -11,38 +11,63 @@ list:
         url: http://www.acm.org
         affiliation: member
         start: 1994
+  $apropos: definitions#/apropos/1
   $mastery: definitions#/mastery/3
-- name: Pottery
+- name: Ceramics
   orgs:
     - name: Xiem Clay Center studio
       url: http://xiemclaycenter.com
       affiliation: student and member
+  keywords:
+    - Pottery
+    - Wheel-throwing
+    - Cone 10 firing
+  $apropos: definitions#/apropos/5
   $mastery: definitions#/mastery/4
 - name: Calligraphy
-  $mastery: definitions#/mastery/3
-- name: Postcrossing
-  orgs:
-    - name: Postcrossing
-      url: http://postcrossing.com
-      affiliation: member
+  keywords:
+    - Copperplate
+    - Spencerian
+    - Pointed-pen
+    - Broad-edge
+    - Fountain pens
+  $apropos: definitions#/apropos/5
   $mastery: definitions#/mastery/3
 - name: Archery
   orgs:
     - name: Pasadena Roving Archers
       url: https://www.rovingarchers.com
       affiliation: student and member
+  keywords:
+    - Recurve archery
+    - Compound archery
+  $apropos: definitions#/apropos/4
   $mastery: definitions#/mastery/3
 - name: Bicycling
+  keywords:
+    - Road bikes
+    - Hybrid bikes
+    - Folding/Brompton bikes
+  $apropos: definitions#/apropos/4
+  $mastery: definitions#/mastery/3
+- name: Postcrossing
+  orgs:
+    - name: Postcrossing
+      url: http://postcrossing.com
+      affiliation: member
+  $apropos: definitions#/apropos/3
   $mastery: definitions#/mastery/3
 - name: Geocaching
   orgs:
     - name: Geocaching
       url: http://www.geocaching.com
       affiliation: member
+  $apropos: definitions#/apropos/3
   $mastery: definitions#/mastery/3
 - name: Blacksmithing
   orgs:
       - name: Adam's Forge
         url: http://www.adamsforge.org
         affiliation: student
+  $apropos: definitions#/apropos/1
   $mastery: definitions#/mastery/1
