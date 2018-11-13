@@ -13,15 +13,8 @@
     - dept: Professional Development
     - instructor: Paul P. Gowler
   keywords: leadership
-- date: 2008-09
-  title: Systems Engineering and Management Principles for Information Intensive Systems
-  subtitle: Certificate Program for JPL
-  school:
-    - name: Caltech Institution of Technology
-    - dept: Industrial Relations Center
-    - url: www.irc.caltech.edu
-    - instructor: Joel Sercel
-  phone: 626-395-4041
+  $apropos: definitions#/apropos/5
+  $mastery: definitions#/mastery/4
 - date: 2009-09-11
   start: 2009-09-09
   title: Successful Project Management
@@ -32,3 +25,16 @@
     - instructor: Chris Christensen
   credit:
       - hours: 8
+  $apropos: definitions#/apropos/2
+  $mastery: definitions#/mastery/2
+- date: 2008-09-01
+  title: Systems Engineering and Management Principles for Information Intensive Systems
+  subtitle: Certificate Program for JPL
+  school:
+    - name: Caltech Institution of Technology
+    - dept: Industrial Relations Center
+    - url: www.irc.caltech.edu
+    - instructor: Joel Sercel
+    - phone: 626-395-4041
+  $apropos: definitions#/apropos/5
+  $mastery: definitions#/mastery/2
