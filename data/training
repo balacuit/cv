@@ -1,25 +1,42 @@
 %YAML 1.2
 #
-#
-#
+# - date: <date issued>
+#   title: <title of the training course>
+#   description: <describe the course material
+#   school:
+#     - name:
+#     - dept:
+#     - instructor:
+#   apropos:
+#   keywords:
+#   mastery:
 ---
 - date: 2017-11-30
   title: The Extraordinary Leader
   description: |
-    Highly effective leaders drive results. Research shows that the effectiveness of an organization's leaders has a direct impact on employee productivity and engagement, innovation, and customer satisfaction. The Extraordinary Leader workshop takes a strengths based approach to leadership development, helping managers to become better leaders by:
-    * Applying a unique cross-training approach to leadership development • Utilizing 360-degree feedback to identify key strengths • Creating an action-oriented plan that facilitates goal setting and follow through • Learning to apply leadership development in daily, on-the-job activities
+    Highly effective leaders drive results.
+    Research shows that the effectiveness of an organization's leaders
+    has a direct impact on employee productivity and engagement,
+    innovation, and customer satisfaction.
+    The Extraordinary Leader workshop takes a strengths
+    based approach to leadership development,
+    helping managers to become better leaders by:
+    * Applying a unique cross-training approach to leadership development
+    * Utilizing 360-degree feedback to identify key strengths
+    * Creating an action-oriented plan that facilitates goal setting and follow through
+    * Learning to apply leadership development in daily, on-the-job activities
   school:
     - name: JPL
     - dept: Professional Development
     - instructor: Paul P. Gowler
   keywords: leadership
-  $apropos: definitions#/apropos/5
+  ^apropos: definitions#/apropos/5
   $mastery: definitions#/mastery/4
 - date: 2009-09-11
   start: 2009-09-09
   title: Successful Project Management
   school:
-    - name: Caltech Institution of Technology
+    - name: California Institution of Technology
     - dept: Industrial Relations Center
     - url: www.irc.caltech.edu
     - instructor: Chris Christensen
@@ -27,14 +44,30 @@
       - hours: 8
   $apropos: definitions#/apropos/2
   $mastery: definitions#/mastery/2
-- date: 2008-09-01
+- date: 2008-09-24
   title: Systems Engineering and Management Principles for Information Intensive Systems
   subtitle: Certificate Program for JPL
   school:
-    - name: Caltech Institution of Technology
+    - name: California Institution of Technology
     - dept: Industrial Relations Center
     - url: www.irc.caltech.edu
     - instructor: Joel Sercel
     - phone: 626-395-4041
+  citation: |
+    California Institute of Technology
+    Industrial Relations Center
+    This is to certify that
+    Carlos Balacuit
+    has successfully completed the
+    Systems Engineering and
+    Information Intensive Systems
+    for the Jet Propulsion Laboratory
+  issued:
+    - name: Anne B. Campbell
+      role: Director, Systems Engineering and Management
+      office: Industrial Relations Center
+    - name: James J. Rinaldi
+      role: Chief Information Officer
+      office: Jet Propulsion Laboratory
   $apropos: definitions#/apropos/5
   $mastery: definitions#/mastery/2

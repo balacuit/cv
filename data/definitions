@@ -3,7 +3,7 @@
 #
 #
 ---
-$about:
+about:
   apropos:
     description: Level of relevance to highlight this.
   mastery:

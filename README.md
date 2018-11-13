@@ -11,6 +11,10 @@ make
 
 * CV Vs. Resume—Here Are the Differences.  
 	https://www.themuse.com/advice/cv-vs-resumehere-are-the-differences
+* How to Write a Resume: Everything You Need to Know.  
+	https://www.hloom.com/how-to-write-a-resume/
+* How to Write a CV with 18 Professional CV Template and Examples.  
+	https://www.hloom.com/resumes/curriculum-vitae-guide/
 
 ### Generators
 
