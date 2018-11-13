@@ -1,0 +1,34 @@
+%YAML 1.2
+#
+#
+#
+---
+- date: 2017-11-30
+  title: The Extraordinary Leader
+  description: |
+    Highly effective leaders drive results. Research shows that the effectiveness of an organization's leaders has a direct impact on employee productivity and engagement, innovation, and customer satisfaction. The Extraordinary Leader workshop takes a strengths based approach to leadership development, helping managers to become better leaders by:
+    * Applying a unique cross-training approach to leadership development • Utilizing 360-degree feedback to identify key strengths • Creating an action-oriented plan that facilitates goal setting and follow through • Learning to apply leadership development in daily, on-the-job activities
+  school:
+    - name: JPL
+    - dept: Professional Development
+    - instructor: Paul P. Gowler
+  keywords: leadership
+- date: 2008-09
+  title: Systems Engineering and Management Principles for Information Intensive Systems
+  subtitle: Certificate Program for JPL
+  school:
+    - name: Caltech Institution of Technology
+    - dept: Industrial Relations Center
+    - url: www.irc.caltech.edu
+    - instructor: Joel Sercel
+  phone: 626-395-4041
+- date: 2009-09-11
+  start: 2009-09-09
+  title: Successful Project Management
+  school:
+    - name: Caltech Institution of Technology
+    - dept: Industrial Relations Center
+    - url: www.irc.caltech.edu
+    - instructor: Chris Christensen
+  credit:
+      - hours: 8
