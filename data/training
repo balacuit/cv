@@ -2,15 +2,21 @@
 #
 # - date: <date issued>
 #   title: <title of the training course>
+#   subtitle:
 #   description: <describe the course material
 #   school:
 #     - name:
 #     - dept:
+#     - url:
 #     - instructor:
+#   citation:
 #   apropos:
 #   keywords:
 #   mastery:
 ---
+$schema: schema#/training
+about: Training and Certifications
+entries:
 - date: 2017-11-30
   title: The Extraordinary Leader
   description: |
@@ -30,8 +36,8 @@
     - dept: Professional Development
     - instructor: Paul P. Gowler
   keywords: leadership
-  ^apropos: definitions#/apropos/5
-  $mastery: definitions#/mastery/4
+  apropos: { $ref: definitions#/apropos/5 }
+  mastery: { $ref: definitions#/mastery/4 }
 - date: 2009-09-11
   start: 2009-09-09
   title: Successful Project Management
@@ -42,8 +48,8 @@
     - instructor: Chris Christensen
   credit:
       - hours: 8
-  $apropos: definitions#/apropos/2
-  $mastery: definitions#/mastery/2
+  apropos: { $ref: definitions#/apropos/2 }
+  mastery: { $ref: definitions#/mastery/2 }
 - date: 2008-09-24
   title: Systems Engineering and Management Principles for Information Intensive Systems
   subtitle: Certificate Program for JPL
@@ -69,8 +75,8 @@
     - name: James J. Rinaldi
       role: Chief Information Officer
       office: Jet Propulsion Laboratory
-  $apropos: definitions#/apropos/5
-  $mastery: definitions#/mastery/2
+  apropos: { $ref: definitions#/apropos/5 }
+  mastery: { $ref: definitions#/mastery/2 }
 - date: 2005-10-05
   title: Certificate of Attendance
   subtitle: CF Underground VII
@@ -89,5 +95,12 @@
     - name: Michael Smith
       role: President
       office: TeraTech, Inc. 
-  $apropos: definitions#/apropos/0
-  $mastery: definitions#/mastery/5
+  apropos: { $ref: definitions#/apropos/0 }
+  mastery: { $ref: definitions#/mastery/5 }
+- dated: 2003-01-01
+  type: Certification Award
+  summary: Advanced Macromedia ColdFusion Developer
+  school:
+    - name: Macromedia
+  apropos: { $ref: definitions#/apropos/1 }
+  mastery: { $ref: definitions#/mastery/5 }

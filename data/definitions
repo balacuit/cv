@@ -3,6 +3,7 @@
 #
 #
 ---
+$schema: schema#/definitions
 about:
   apropos:
     description: Level of relevance to highlight this.

@@ -2,15 +2,19 @@
 # Awards
 #
 # - type: { Bonus Award | Discovery Bonus Award | NASA Honors Award | .. }
-#   date: { date the award was issued }
+#   dated: { dated the award was issued }
 #   contribution: { team, individual }
 #   title: { title of the award }
 #   citation: { description of the award }
 ---
-- date: 2018-09-21
-  type: Team Award
+$schema: schema#/awards
+title: Awards and Recognition
+entries:
+- dated: 2018-09-21
+  type: Bonus Award
+  category: Team Bonus Award
+  team: Integrated Modeling Environment Team
   summary: Integrated Modeling Environment
-  contribution: team
   citation: |
     Section 312
     Project Systems Engineering & Formulation
@@ -20,19 +24,19 @@
     For exceptional work, thoughout the past 5 years, including the modernization of the
     deployment processes that enable frequent releases of the Integrated Modeling Environment.
     Sept 21, 2018
-  presenter:
+  signed:
     - name: Bill Seixas
       role: Section Manager
       office: JPL 172
     - name: James Chase
-      role: Systems Engineer
-      office: JPL 312
-    amount: 625.00
+      role: 312 Systems Engineer
+      office: JPL Project Systems Engineering & Formulation
+  amount: 625.0
 
-- date: 2018-07-19
-  type: Team Bonus Award
-  summary: JPL Source Inspection Development Team
-  contribution: team
+- dated: 2018-07-19
+  type: Bonus Award
+  category: Team Bonus Award
+  team: JPL Source Inspection Development Team
   citation: |
     Jet Propulsion Laboratory Bonus Awards
     This Team Award is presented to
@@ -41,17 +45,16 @@
     development, testing and delivery of our Source
     Inspection Scheduler/Database Tool.
     Awarded on the 19th of July, 2018
-  presenter:
+  signed:
     - name: John O'Donnell
       role: Manager
       office: Quality Assurance Office
-  amount: 250.00
-- type: Discovery Bonus Award
-  date: 2018-01-01
-  title: Integrated Modeling Environment Development Team
-- date: 2017-06-15
+  amount: 250.0
+
+- dated: 2017-06-15
   type: NASA Honors Award
-  title: JPL Hybrid Compute Cloud Implementation Team
+  category: Group Achievement Award
+  team: JPL Hybrid Compute Cloud Implementation Team
   citation: |
     National Aeronautics and Space Administration
     Presents the
@@ -64,14 +67,16 @@
     Signed and Sealed at Washington, DC
     this fifteenth day of June
     Two-Thousand Seventeen
-  presenter:
+  signed:
     - name: Robert
       role: Acting Administrator
       office: NASA
-- date: 2017-06-02
-  type: Team Bonus Award
-  contribution: team
-  title: Cost Analysis Database Software Improvement Team
+
+- dated: 2017-06-02
+  type: Bonus Award
+  category: Team Bonus Award
+  team: Cost Analysis Database Software Improvement Team
+  accomplishment: The CADB Team developed a new web page GUI with Oracle queries and links to the Prj. Reference List (PRL)
   citation: |
     Team Bonus Award
     is presented to
@@ -80,15 +85,17 @@
     implementation, testing and rollout of the new
     expanded version of the Cost Analysis Database
     (CADB) software capability.
-  presenter:
+  signed:
     - name: Edward Jorgensen
       role: Deputy Section Manager
       office: Cost Estimation and Pricing
-  amount: 500.00
-- date: 2015-01-01
-  type: Discovery Bonus Award
-  contribution: team
-  summary: Integrated Modeling Environment prototype for Team-X
+  amount: 500.0
+
+- dated: 2015-04-24
+  type: Bonus Award
+  category: Discovery Award
+  summary: Integrated Modeling Environment prototype
+  accomplishment: Carlos created the Python/Django back end for the Integrated Modeling Environment prototype for Team-X.
   citation: |
     Jet Propulsion Laboratory Discovery Award
     This Discovery Award is presented to
@@ -100,12 +107,20 @@
     - name: Omkar Nalamwar
       role: 172C Group Supervisor
       office: Jet Propulsion Laboratory
-- date: 2014-01-01
-  type: Team Bonus Award
-  title: JPL Cares! Program
-- date: 2013-04-24
-  type: Team Bonus Award
-  title: AFS Web Migration Team
+  amount: 350.0
+
+- dated: 2014-06-20
+  type: Bonus Award
+  category: Team Bonus Award
+  team: JPL Cares! Program Technical Implementation Team
+  accomplishment: For successfully implementing new technologies in support of the JPL Cares! Program.
+  amount: 300.0
+
+- dated: 2013-04-24
+  type: Bonus Award
+  category: Team Bonus Award
+  team: AFS Web Migration Team
+  accomplishment: Migration of approximately 90 externally facing web sites from AFS to the NextGen web hosting.
   citation: |
     Jet Propulsion Laboratory Team Award
     This Team Award is presented to
@@ -116,12 +131,27 @@
     - name: Robin Dumas
       role: Manager
       office: Jet Propulsion Laboratory
-- date: 2012-01-01
-  type: Mariner Award
-  title: NASA TechPort
-- date: 2011-06-13
+  amount: 250.0
+
+- dated: 2012-06-20
+  type: Bonus Award
+  category: Mariner Award
+  summary: NASA TechPort
+  accomplishment: Carlos has led a team of IT specialists from several organizations outside of JPL to develop a user dashboard module.
+  amount: 1000.0
+
+- dated: 2011-09-19
+  type: Bonus Award
+  category: Mariner Award
+  summary: Integrated Mission Program and Core Technologies
+  accomplishment: Completed Version 1.1 of the IMPaCT (Integrated Mission Program and Core Technology) web-based software package and demonstrated it for the NASA
+  amount: 500.0
+
+- dated: 2011-06-13
   type: NASA Honors Award
-  title: JPL Software Quality Improvement Team
+  category: Group Achievement Award
+  team: JPL Software Quality Improvement Team
+  accomplishment: For dedication and teamwork in improving software development practices resulting in the JPL Engineering and Science Directorate achieving CMMI Maturi
   citation: |
     The National Aeronautics and Space Administration
     Presents the
@@ -138,19 +168,28 @@
     - name: Charles Bolden
       role: Administration
       office: NASA
-- date: 2011-01-01
-  type: Mariner Award
-  title: Integrated Mission Program and Core Technologies
-- date: 2009-01-01
-  type: Spot Award
-  citation:  |
-    for leadership/mentoring in the Web Application Development group
-- date: 2009-01-01
+
+- dated: 2009-06-06
   type: NASA Honors Award
-  title: Work Agreement System Development Team
-- date: 2008-05-28
-  type: Team Bonus Award
-  title: Work Authorization System Development Team
+  category: Group Achievement Award
+  team: Work Agreement System Development Team
+  summary: Work Agreement System
+  accomplishment: For designing a creative solution that provides JPL Management with a more accurate and complete understanding of the work and research being per
+
+- dated: 2009-07-12
+  issued: 2009-06-12
+  type: Spot Award
+  summary: Mentoring
+  accomplishment: Carlos has volunteered to be the mentor for Winnie Hang. He has been acting as the technical coach for Winnie. Over the last 18 months, Carlos ha
+  amount: 150.0
+  apropos: { $ref: definitions#/apropos/5 }
+
+- dated: 2008-05-28
+  type: Bonus Award
+  category: Team Bonus Award
+  team: Work Authorization System Development Team
+  accomplishment: |
+    The Work Authorization System is a new system that combines the requirements and functionalities of three existing systems: Work Authorization Sy
   citation: |
     Jet Propulsion Laboratory Bonus Award
     This Team Bonus Award is presented to
@@ -162,9 +201,14 @@
     - name: Lonnly Ching
       role: 172C Group Supervisor
       office: 172C, Office of the Chief Information Office
-  amount: 0
-- date: 2008-05-08
+  amount: 300.0
+  apropos: { $ref: definitions#/apropos/5 }
+
+- dated: 2008-05-08
+  issued: 2008-07-23
   type: NASA Honors Award
+  category: Team Bonus Award
+  team: Inside JPL Portal Team
   citation: |
     The National Aeronautics and Space Administration
     Presents the
@@ -176,17 +220,37 @@
     Carlos P. Balacuit
     Signed and Sealed at Washington, DC this
     eight day of May Two Thousand Eight
-- signed:
+  signed:
     - name: ...
       role: Administrator
       office: NASA
   title: JPL InsideJPL Portal Team
-- date: 2006-01-01
-  type: Team Bonus Award
-  title: Web Development Team
-- date: 2005-06-09
-  type: Level C Bonus Award
-  title: On Line Technology Information System (OTIS)
+  apropos: { $ref: definitions#/apropos/5 }
+
+- dated: 2006-07-21
+  issued: 2006-07-21
+  type: Spot Award 
+  category: Spot
+  team: Web Applications Development Team
+  accomplishment:  Carlos along with Boris went way above and beyond
+  amount: 100.0
+  apropos: { $ref: definitions#/apropos/5 }
+
+- dated: 2005-09-29
+  issued: 2005-09-29
+  type: Spot Award 
+  category: Spot
+  team: Web Applications Development Team
+  amount: 300.0
+  apropos: { $ref: definitions#/apropos/5 }
+
+- dated: 2005-06-09
+  issued: 2005-08-01
+  type: Bonus Award
+  category: Level C Award
+  subcategory: Outstanding Accomplishment
+  summary: On Line Technology Information System (OTIS)
+  accomplishment: Carlos Balacuit has developed the On Line Technology Information System (OTIS), which assists the management of solar system and Mars technology
   citation: |
     Mars Exploration Directorate
     Bonus Award
@@ -202,16 +266,33 @@
     - name: James A. Cutts
       role: Chief Technologist
       office: Solar System Exploration Programs Directorate
-  amount: ?
-- date: 2005-01-01
-  type: Spot Award 
-  title: Web Applications Development Team
-- date: 2004-01-01
-  type: NASA Honors Award (2004)
-  title: Mars Exploration Rover Mission System Development Management Team
-- date: 2003-01-01
+  amount: 1000.0
+  apropos: { $ref: definitions#/apropos/5 }
+
+- dated: 2005-04-21
+  issued: 2005-04-21
   type: Spot Award
-  title: Web Applications Development Team
-- date: 2003-01-01
+  category: Spot
+  team: Web Applications Development Team
+  amount: 100.0
+  apropos: { $ref: definitions#/apropos/5 }
+
+- dated: 2004-10-12
+  issued: 2004
+  type: NASA Honors Award
+  category: Group Achievement Award
+  team: Mars Exploration Rover Mission System Development Management Team
+  accomplishment: In recognition of exceptional leadership & achievement of the pre-launch Mission System development team, including the mission design, ground system,
+  apropos: { $ref: definitions#/apropos/5 }
+
+- dated: 2003-08-01
+  issued: 2003-08-01
+  type: Spot Award
+  team: Web Applications Development Team
+  amount: 100.0
+  apropos: { $ref: definitions#/apropos/2 }
+
+- dated: 2003-01-01
   type: Certification Award
-  title: Advanced Macromedia ColdFusion Developer
+  summary: Advanced Macromedia ColdFusion Developer
+  apropos: { $ref: definitions#/apropos/1 }

@@ -3,6 +3,8 @@
 #
 #
 ---
+$schema: schema#/companies
+title: Companies
 jpl:
   title: Jet Propulsion Laboratory
   subtitle: NASA
