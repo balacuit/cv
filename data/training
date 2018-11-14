@@ -71,3 +71,23 @@
       office: Jet Propulsion Laboratory
   $apropos: definitions#/apropos/5
   $mastery: definitions#/mastery/2
+- date: 2005-10-05
+  title: Certificate of Attendance
+  subtitle: CF Underground VII
+  url: www.cfconf.org/cf_underground7/
+  school:
+    - name: TeraTech, Inc.
+      url: www.teratech.com
+  citation: |
+    CERTIFICATE
+    This certificate is presented to
+    Carlos Balacuit
+    for attending CF_Underground VII
+    on October 15, 2005 in Anaheim, CA
+    www.cfconf.org/cf_underground7/
+  issued:
+    - name: Michael Smith
+      role: President
+      office: TeraTech, Inc. 
+  $apropos: definitions#/apropos/0
+  $mastery: definitions#/mastery/5

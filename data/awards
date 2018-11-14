@@ -7,6 +7,28 @@
 #   title: { title of the award }
 #   citation: { description of the award }
 ---
+- date: 2018-09-21
+  type: Team Award
+  summary: Integrated Modeling Environment
+  contribution: team
+  citation: |
+    Section 312
+    Project Systems Engineering & Formulation
+    TEAM Award
+    To
+    Carlos Balacuit
+    For exceptional work, thoughout the past 5 years, including the modernization of the
+    deployment processes that enable frequent releases of the Integrated Modeling Environment.
+    Sept 21, 2018
+  presenter:
+    - name: Bill Seixas
+      role: Section Manager
+      office: JPL 172
+    - name: James Chase
+      role: Systems Engineer
+      office: JPL 312
+    amount: 625.00
+
 - date: 2018-07-19
   type: Team Bonus Award
   summary: JPL Source Inspection Development Team
@@ -20,16 +42,32 @@
     Inspection Scheduler/Database Tool.
     Awarded on the 19th of July, 2018
   presenter:
-      name: John O'Donnell
+    - name: John O'Donnell
       role: Manager
       office: Quality Assurance Office
   amount: 250.00
 - type: Discovery Bonus Award
   date: 2018-01-01
   title: Integrated Modeling Environment Development Team
-- type: NASA Honors Award
-  date: 2017-01-01
-  title: JPL Hybrid-Cloud Implementation Team
+- date: 2017-06-15
+  type: NASA Honors Award
+  title: JPL Hybrid Compute Cloud Implementation Team
+  citation: |
+    National Aeronautics and Space Administration
+    Presents the
+    Group Achievement Award
+    to
+    Hybrid Compute Cloud Implementation Team
+    For the delivery of a high-availability Hybrid Compute Cloud framework that reduces the cost,
+    physical space, and power consumption of compute for missions, science and IT.
+    Carlos P. Balacuit
+    Signed and Sealed at Washington, DC
+    this fifteenth day of June
+    Two-Thousand Seventeen
+  presenter:
+    - name: Robert
+      role: Acting Administrator
+      office: NASA
 - date: 2017-06-02
   type: Team Bonus Award
   contribution: team
@@ -43,9 +81,9 @@
     expanded version of the Cost Analysis Database
     (CADB) software capability.
   presenter:
-    name: Edward Jorgensen
-    role: Deputy Section Manager
-    office: Cost Estimation and Pricing
+    - name: Edward Jorgensen
+      role: Deputy Section Manager
+      office: Cost Estimation and Pricing
   amount: 500.00
 - date: 2015-01-01
   type: Discovery Bonus Award
@@ -58,22 +96,48 @@
     for outstanding work developing the
     Integrated Modeling Environment prototype for Team-X
     on this fourteenth of April, 2015
-  presenter:
-    name: Omkar Nalamwar
-    role: 172C Group Supervisor
-    office: Jet Propulsion Laboratory
+  signed:
+    - name: Omkar Nalamwar
+      role: 172C Group Supervisor
+      office: Jet Propulsion Laboratory
 - date: 2014-01-01
   type: Team Bonus Award
   title: JPL Cares! Program
-- date: 2013-01-01
+- date: 2013-04-24
   type: Team Bonus Award
   title: AFS Web Migration Team
+  citation: |
+    Jet Propulsion Laboratory Team Award
+    This Team Award is presented to
+    CARLOS BALACUIT
+    for outstanding support of the AFS Web Migration efforts
+    on this Twenty Fourth of April, 2013
+  signed:
+    - name: Robin Dumas
+      role: Manager
+      office: Jet Propulsion Laboratory
 - date: 2012-01-01
   type: Mariner Award
   title: NASA TechPort
-- date: 2011-01-01
+- date: 2011-06-13
   type: NASA Honors Award
   title: JPL Software Quality Improvement Team
+  citation: |
+    The National Aeronautics and Space Administration
+    Presents the
+    Group Achievement Award
+    to
+    Software Quality Improvement Team
+    For dedication and teamwork in improving software development practices resulting in the
+    JPL Engineering and Science Directorate achieving CMMI Maturity Level 3
+    Carlos P. Balacuit
+    Signed and Sealed at Washington, DC
+    this thirtieth day of June
+    Two Thousand Eleven
+  signed:
+    - name: Charles Bolden
+      role: Administration
+      office: NASA
 - date: 2011-01-01
   type: Mariner Award
   title: Integrated Mission Program and Core Technologies
@@ -84,18 +148,61 @@
 - date: 2009-01-01
   type: NASA Honors Award
   title: Work Agreement System Development Team
-- date: 2008-01-01
+- date: 2008-05-28
   type: Team Bonus Award
   title: Work Authorization System Development Team
-- date: 2008-01-01
+  citation: |
+    Jet Propulsion Laboratory Bonus Award
+    This Team Bonus Award is presented to
+    Carlos Balacuit
+    for outstanding contribution to the Work Authorization
+    System Team Development
+    on this Twenty-eighth of May, 2008
+  signed:
+    - name: Lonnly Ching
+      role: 172C Group Supervisor
+      office: 172C, Office of the Chief Information Office
+  amount: 0
+- date: 2008-05-08
   type: NASA Honors Award
+  citation: |
+    The National Aeronautics and Space Administration
+    Presents the
+    Group Achievement Award
+    to
+    Inside JPL Portal Team
+    For creative use of state-of-the-art Web 2.0 Technologies, enabling JPL's personnel to locate
+    critical information easier and more efficently.
+    Carlos P. Balacuit
+    Signed and Sealed at Washington, DC this
+    eight day of May Two Thousand Eight
+- signed:
+    - name: ...
+      role: Administrator
+      office: NASA
   title: JPL InsideJPL Portal Team
 - date: 2006-01-01
   type: Team Bonus Award
   title: Web Development Team
-- date: 2005-01-01
-  type: Team Bonus Award
-  title: TDA/OTIS Development Team
+- date: 2005-06-09
+  type: Level C Bonus Award
+  title: On Line Technology Information System (OTIS)
+  citation: |
+    Mars Exploration Directorate
+    Bonus Award
+    This Level C Bonus is presented to
+    Carlos P. Balacuit
+    for outstanding accomplishment in developing the
+    On Line Technology Information System (OTIS)
+    on this 9th day of June, 2005
+  signed:
+    - name: Samad A. Hayati
+      role: Chief Technologist
+      office: Mars Exploration Directorate
+    - name: James A. Cutts
+      role: Chief Technologist
+      office: Solar System Exploration Programs Directorate
+  amount: ?
 - date: 2005-01-01
   type: Spot Award 
   title: Web Applications Development Team
