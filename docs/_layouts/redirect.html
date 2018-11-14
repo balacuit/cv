@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>{{ page.title }}</title>
-	<meta http-equiv="refresh" content="5; url=https://docs.google.com/document/d/1XxmRwP6AfTFHn2BLcGkL9VWwUFVFsOKEx9GwK5RCvpM">
+	<meta http-equiv="refresh" content="{{ redirect_secs | default: 3 }}; url=https://docs.google.com/document/d/1XxmRwP6AfTFHn2BLcGkL9VWwUFVFsOKEx9GwK5RCvpM">
 </head>
 <body>
 	{{ content }}
