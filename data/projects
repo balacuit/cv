@@ -12,57 +12,59 @@
 #           mastery:
 #   description:
 ---
-- $company: companies#/jpl
+about: Professional Summary
+entries:
+- company: { $ref: companies#/jpl }
   role: Technical Team Lead
-  start: 2015  
+  start: 2015-01-01
   summary: |
     I am currently leading a team of developers to construct various jPL internal IT systems.
   tasks: 
     - task: Subcontract generator for Acquisitions generating MS Word documents-based subcontract templates. (Acquisitions Generator)
       skills:
-        - $skill: skills#/languages/python_3.6
-          $mastery: definitions#/mastery/2
-        - $skill: skills#/languages/csharp
-          $mastery: definitions#/mastery/2
-        - $skill: skills#frameworks/dotnet_2
-          $mastery: definitions#/mastery/2
-        - $skill: skills#frameworks/openxml
-          $mastery: definitions#/mastery/3
+        - skill: { $ref: skills#/languages/python_3.6 }
+          mastery: { $ref: definitions#/mastery/2 }
+        - skill: { $ref: skills#/languages/csharp }
+          mastery: { $ref: definitions#/mastery/2 }
+        - skill: { $ref: skills#frameworks/dotnet_2 }
+          mastery: { $ref: definitions#/mastery/2 }
+        - skill: { $ref: skills#frameworks/openxml }
+          mastery: { $ref: definitions#/mastery/3 }
     - task: Model execution service, for the Integrated Modeling Environment (IME).
       skills:
-        - $skill: skills#/languages/python_2.7
-          $mastery: definitions#/mastery/2
-        - $skill: skills#frameworks/tornado
-          $mastery: definitions#/mastery/2
+        - skill: { $ref: skills#/languages/python_2.7 }
+          mastery: { $ref: definitions#/mastery/2 }
+        - skill: { $ref: skills#frameworks/tornado }
+          mastery: { $ref: definitions#/mastery/2 }
     - task: Inventory management and shopping cart application for wire and connector parts for flight projects. (Wire and Connector)
       skills:
-        - $skill: skills#/languages/python_3.6
-          $mastery: definitions#/mastery/2
-        - $skill: skills#frameworks/django_2
-          $mastery: definitions#/mastery/2
+        - skill: { $ref: skills#/languages/python_3.6 }
+          mastery: { $ref: definitions#/mastery/2 }
+        - skill: { $ref: skills#frameworks/django_2 }
+          mastery: { $ref: definitions#/mastery/2 }
     - task: Scheduling tool for parts and supplier inspection (Source Inspection).
       skills:
-        - $skill: skills#/languages/python_3.6
-          $mastery: definitions#/mastery/2
-        - $skill: skills#frameworks/django_2
-          $mastery: definitions#/mastery/2
+        - skill: { $ref: skills#/languages/python_3.6 }
+          mastery: { $ref: definitions#/mastery/2 }
+        - skill: { $ref: skills#frameworks/django_2 }
+          mastery: { $ref: definitions#/mastery/2 }
     - task: Reservation management system for the scheduling of Technical Facilities, such as clean rooms, shakers tables, spacecraft assembly rooms.  (Facilities Reservation System)
       skills:
-        - $skill: skills#/languages/python_2.7
-          $mastery: definitions#/mastery/2
-        - $skill: skills#frameworks/django_1.8
-          $mastery: definitions#/mastery/2
+        - skill: { $ref: skills#/languages/python_2.7 }
+          mastery: { $ref: definitions#/mastery/2 }
+        - skill: { $ref: skills#frameworks/django_1.8 }
+          mastery: { $ref: definitions#/mastery/2 }
     - task: Online Investigations tools for Human Resources and Ethics Office (TED, OARS, COI)
       skills:
-        - $skill: skills#/languages/python_2.7
-          $mastery: definitions#/mastery/2
-        - $skill: skills#frameworks/django_1.8
-          $mastery: definitions#/mastery/2
+        - skill: { $ref: skills#/languages/python_2.7 }
+          mastery: { $ref: definitions#/mastery/2 }
+        - skill: { $ref: skills#frameworks/django_1.8 }
+          mastery: { $ref: definitions#/mastery/2 }
 
-- $company: companies#/jpl
+- company: { $ref: companies#/jpl }
   role: Senior Software Engineer
-  end: 2015
-  start: 2012
+  end: 2015-01-01
+  start: 2012-01-01
   tasks:
     - task: Co-developed Integrated Modeling Environment (IME) used for collaborative engineering for Mission Concept design, for the JPL Innovation Foundry and Advanced Design Teams (Team X).
     - task: Prototyped Hardware Catalog, utilized by IME.
@@ -72,20 +74,20 @@
     - task: Maintained JPL United Way application.
     - task: Maintained Case Log employee reporting tool for JPL Human Resources 
 
-- $company: companies#/jpl
+- company: { $ref: companies#/jpl }
   role: IT Systems Engineer  
   end:  2012-06-01
-  start: 2009
+  start: 2009-01-01
   tasks:
     - task: Defining processes for development and deployment.
     - task: Incorporating software configuration management practices to sole developer.
     - task: Provide technical consulting to the IT infrastructure software development.
     - task: Documenting procedures and policies on the wiki.
 
-- $company: company#/jpl
+- company: { $ref: companies#/jpl }
   role: Senior Software Engineer
   end: 2009-06-01
-  start: 2002
+  start: 2002-01-01
   summary: |
     As a part of the Web Application Development group at JPL, responsibilities and projects include:
   tasks:
@@ -96,9 +98,9 @@
     - task: Application developer for the Technology Development Agreement Database (TDA)
     - task: Application developer for the Software Measure Archival and Retrieval Tool (SMART)
 
-- $company: company#/jpl_uta
+- company: { $ref: company#/jpl_uta }
   role: Software Support Engineer
-  end: 2002
+  end: 2002-01-01
   start: 2001-04-01
   summary: |
     The Rover Sequence Editor (RoSE) is a Java/Swing application used to compose and validate rover commands in the Rover Markup Language (RML).  This component is part of the Rover Sequencing and Visualization Program (RSVP), which is used to drive the Mars Exploration Rovers (MER).  Contributions to the application included:
@@ -108,7 +110,7 @@
     - task: Development of J-SPICE, a Java package that wraps time conversion routines from native C NAIF SPICE libraries.
     - task: Development of unit conversion support from conversion data, configured by an XML source.
 
-- $company: company#/cooking
+- company: { $ref: company#/cooking }
   role: Application Developer/Web Developer
   end: 2000-04-01
   start: 2001-02-01
@@ -121,10 +123,10 @@
     - task: Development of business objects as Visual Basic classes and modules to handle company specific data types, for use in a common architecture for interface development.
     - task: Enhancement and maintenance of company intranet.
       skills:
-        - $skill: skills#/languages/vb
-        - $skill: skills#/languages/vss
+        - skill: { $ref: skills#/languages/vb }
+        - skill: { $ref: skills#/languages/vss }
 
-- $company: company#/jpl_fdc
+- company: { $ref: company#/jpl_fdc }
   role: Java Developer/Web Developer of PAD/PACT
   end: 1999-09-01
   start: 2000-04-01
@@ -135,7 +137,7 @@
     - task: Led development effort to add STEP (Standard for Exchange of Product Data) usage to the PAD.
     - task: Maintenance of PAD/PACT Web site.
 
-- $company: company#/jpl_fdc
+- company: { $ref: company#/jpl_fdc }
   role: Design Hub Support and Intranet Developer
   end: 1998-04-01
   start: 2000-04-01
@@ -143,7 +145,7 @@
     Maintained and developed the Design Hub intranet, using Allaire ColdFusion and MS Access/Oracle 8i.  Experience included configuration of Apache webserver on Solaris 2.7 and Red Hat Linux webservers, mod_perl, PHP 3.0, and graphics development with Adobe Photoshop and Adobe Illustrator.
     Mission Data Systems (MDS) project software support for Ilogix Rhapsody, Visual C++, and other Unified Modeling Language (UML) tools.
 
-- $company: company#/jpl_telos
+- company: { $ref: company#/jpl_telos }
   role: Website Developer
   end: 1998-02-01
   start: 1996-09-01
@@ -153,22 +155,22 @@
     - task: Established a framework for future database-driven, portal-like Web site deployment for DNP members and users, using Allaire ColdFusion.
     - task: Developed the external New Millennium Program (NMP) and internal Project Design Center (PDC) web sites.  Provided technical support for the internal web-based collaboration environment for the NMP Program Office.
       skills:
-        - $skill: skills#/tools/photoshop
-          $mastery: definitions#/mastery/3
-        - $skill: skills#/tools/homesite
-          $mastery: definitions#/mastery/3
-        - $skill: skills#/languages/html
-          $mastery: definitions#/mastery/3
+        - skill: { $ref: skills#/tools/photoshop }
+          mastery: { $ref: definitions#/mastery/3 }
+        - skill: { $ref: skills#/tools/homesite }
+          mastery: { $ref: definitions#/mastery/3 }
+        - skill: { $ref: skills#/languages/html }
+          mastery: { $ref: definitions#/mastery/3 }
     - task: Developed username/password authentication Satellite Orbit Analysis Program (SOAP) internal Web site.
   conclusion: |
     Experience included configuration of Apache web server on Solaris, username/password authentication, and graphics development with Adobe Photoshop 5.
 
-- $company: company#/cpp
+- company: { $ref: company#/cpp }
   role: Software Developer
-  end: 1996
-  start: 1994
+  end: 1996-01-01
+  start: 1994-01-01
   tasks:
     - task: Integrated Science for General Education
       skills:
-        - $skill: skills#/tools/authorware
-          $mastery: definitions#/mastery/3
+        - skill: { $ref: skills#/tools/authorware }
+          mastery: { $ref: definitions#/mastery/3 }

@@ -18,7 +18,8 @@ $schema: schema#/training
 about: Training and Certifications
 entries:
 - date: 2017-11-30
-  title: The Extraordinary Leader
+  title: Certificate of Completion
+  subtitle: The Extraordinary Leader
   description: |
     Highly effective leaders drive results.
     Research shows that the effectiveness of an organization's leaders
@@ -38,9 +39,11 @@ entries:
   keywords: leadership
   apropos: { $ref: definitions#/apropos/5 }
   mastery: { $ref: definitions#/mastery/4 }
+
 - date: 2009-09-11
   start: 2009-09-09
-  title: Successful Project Management
+  title: Certificate of Completion
+  subtitle: Successful Project Management
   school:
     - name: California Institution of Technology
     - dept: Industrial Relations Center
@@ -50,15 +53,16 @@ entries:
       - hours: 8
   apropos: { $ref: definitions#/apropos/2 }
   mastery: { $ref: definitions#/mastery/2 }
+
 - date: 2008-09-24
-  title: Systems Engineering and Management Principles for Information Intensive Systems
-  subtitle: Certificate Program for JPL
+  title: Certificate Program for JPL
+  subtitle: Systems Engineering and Management Principles for Information Intensive Systems
   school:
     - name: California Institution of Technology
-    - dept: Industrial Relations Center
-    - url: www.irc.caltech.edu
-    - instructor: Joel Sercel
-    - phone: 626-395-4041
+      dept: Industrial Relations Center
+      url: www.irc.caltech.edu
+      instructor: Joel Sercel
+      phone: 626-395-4041
   citation: |
     California Institute of Technology
     Industrial Relations Center
@@ -77,6 +81,27 @@ entries:
       office: Jet Propulsion Laboratory
   apropos: { $ref: definitions#/apropos/5 }
   mastery: { $ref: definitions#/mastery/2 }
+
+- date: 2010-01-01
+  title: Certificate of Completion
+  subtitle: SharePoint Server 2010 Developer
+  school:
+    - name: Microsoft
+      dept: US Enterprise Services Workshop
+      instructor: Setheni Kirschnick
+  citation: |
+    Microsoft Services
+    CERTIFICATE OF COMPLETION
+    This certificate is awarded to
+    Carlos Balacuit
+    Build on
+    In recognition of completing
+    SharePoint Server 2010: Developer
+  issued:
+    - name: Setheni Kirschnick
+      role: instructor
+      office: US Enterprise Services Workshop
+
 - date: 2005-10-05
   title: Certificate of Attendance
   subtitle: CF Underground VII
@@ -96,11 +121,4 @@ entries:
       role: President
       office: TeraTech, Inc. 
   apropos: { $ref: definitions#/apropos/0 }
-  mastery: { $ref: definitions#/mastery/5 }
-- dated: 2003-01-01
-  type: Certification Award
-  summary: Advanced Macromedia ColdFusion Developer
-  school:
-    - name: Macromedia
-  apropos: { $ref: definitions#/apropos/1 }
   mastery: { $ref: definitions#/mastery/5 }
