@@ -85,6 +85,10 @@ entries:
     - task: Documenting procedures and policies on the wiki.
 
 - company: { $ref: companies#/jpl }
+  role: IT Systems Engineer
+  end: 2010-06-23
+  start: 2010-03-11
+- company: { $ref: companies#/jpl }
   role: Senior Software Engineer
   end: 2009-06-01
   start: 2002-01-01

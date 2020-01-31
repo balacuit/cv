@@ -45,7 +45,7 @@ def read_yaml(file_path):
 
 def tab_indent(content_length, left_margin=80, tab_length=8):
     import math
-    tabs = (left_margin - content_length - 1) / tab_length
+    tabs = math.floor((left_margin - content_length - 1) / tab_length)
     return '\t' * tabs
 
 

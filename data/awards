@@ -245,8 +245,18 @@ entries:
 - dated: 2009-07-12
   issued: 2009-06-12
   type: Spot Award
-  summary: Recognition for Mentoring
+  summary: Outstanding Mentoring Skills
   accomplishment: Carlos has volunteered to be the mentor for Winnie Hang. He has been acting as the technical coach for Winnie. Over the last 18 months, Carlos ha
+  citation: |
+    Jet Propulsion Laboratory Bonus Award
+    This Spot Award is presented to
+    Carlos Balacuit
+    for Demonstrating Outstanding Mentoring Skills
+    on this tenth of June, 2009
+  signed:
+      - name: Lonnly Ching
+        role: Group Supervisor
+        office: 172C
   amount: 150.0
   apropos: { $ref: definitions#/apropos/5 }
 
@@ -292,6 +302,26 @@ entries:
       office: NASA
   title: JPL InsideJPL Portal Team
   apropos: { $ref: definitions#/apropos/5 }
+
+
+- dated: 2007-05-01
+  type: Service Award
+  summary: 5 years of Service
+  accomplishment: 5 years of Service
+  citation: |
+    Certificate of Recognition
+    CONGRATULATIONS
+    Presented to:
+    Carlos P. Balacuit
+    In Appreciation for
+    Five Years
+    of service to the Jet Propulsion Laboratory
+    California Institute of Technology
+    May 2007
+  signed:
+    - name: Charles Elachi
+      role: Director
+      office: Office of the Director
 
 - dated: 2006-07-21
   issued: 2006-07-21
@@ -340,8 +370,70 @@ entries:
   type: Spot Award
   category: Spot
   team: Web Applications Development Team
+  citation: |
+    The Enterprise Engineering Division 37 congratulates
+    Carlos Balacuit
+    On a job well done!
+    Thank you for your outstanding contribution
+    to the success of our new Division!
+    April 26, 2005
   amount: 100.0
   apropos: { $ref: definitions#/apropos/5 }
+- dated: 2005-04-01
+  issued: 2005-04-01
+  type: Bonus Award
+  category: Recognition of Excellence
+  summary: Innovative Solution for Docushare 3 Libraries
+  citation: |
+    Project Formulation & 372J
+    Management Applications Group
+    Recognition of Excellence
+    Presented to:
+    Carlos Balacuit
+    In Appreciation and recognition for your innovative solution to intercept &
+    redirect broken links for the transition from the Docushare 2 Libraries to
+    the Docushare 3 Libraries for SIM and other future transitions.
+    April 2005
+  signed:
+    - name: Lonnly Ching
+      role: Technical Group Supervisor
+      office: 372J
+
+- dated: 2004-08-12
+  type: NASA Tech Brief
+  category: Certificate of Recognition
+  summary: Rover Sequencing And Visualization Program (RSVP)
+  citation: |
+    National Aeronautics and Space Administration
+    Certification of Recognition
+    Presents this Certificate to:
+    Carlos P Balacuit
+    For the creative development of a technical
+    innovation which has been approved for publication
+    as a NASA Tech Brief entitled...
+    Rover Sequencing And Visualization Program (RSVP)
+  signed:
+    - name: Thomas M Bradley
+      role: Chairperson
+      office: Inventions and Contributions Board
+
+- dated: 2004-06-09
+  type: NASA Tech Brief
+  category: Certificate of Recognition
+  summary: Rover Sequencing And Visualization Program (RSVP)
+  citation: |
+    National Aeronautics and Space Administration
+    Certification of Recognition
+    Presents this Certificate to:
+    Carlos P Balacuit
+    For the creative development of a technical
+    innovation which has been approved for publication
+    as a NASA Tech Brief entitled...
+    Rover Sequencing And Visualization Program (RSVP)
+  signed:
+    - name: Thomas M Bradley
+      role: Chairperson
+      office: Inventions and Contributions Board
 
 - dated: 2004-10-12
   issued: 2004
@@ -349,13 +441,66 @@ entries:
   category: Group Achievement Award
   team: Mars Exploration Rover Mission System Development Management Team
   accomplishment: In recognition of exceptional leadership & achievement of the pre-launch Mission System development team, including the mission design, ground system,
+  citation: |
+    The National Aeronautics and Space Administration
+    Presents the
+    Group Achievement Award
+    for the
+    Mars Exploration Rover
+    Mission System Development Team
+    to
+    Carlos Balacuit
+    in recognition of the exceptional contributions to the MER mission design
+    and ground systems, and to mission operations system development.
+    Signed and sealed at Washington, D.C.,
+    this twenty-fifth day of May
+    two thousand four
+  signed:
+    - name: Sean O'Keefe
+      role: Administrator
+      office: NASA
   apropos: { $ref: definitions#/apropos/5 }
+
+
+- dated: 2003-10-09
+  type: NASA Tech Brief
+  category: Certificate of Recognition
+  summary: Rover Sequencing And Visualization Program (RSVP)
+  citation: |
+    National Aeronautics and Space Administration
+    Certification of Recognition
+    Presents this Certificate to:
+    Carlos P Balacuit
+    For the creative development of a technical
+    innovation which has been approved for publication
+    as a NASA Tech Brief entitled...
+    Rover Sequencing And Visualization Program (RSVP)
+  signed:
+    - name: Thomas M Bradley
+      role: Chairperson
+      office: Inventions and Contributions Board
 
 - dated: 2003-08-01
   issued: 2003-08-01
   type: Spot Award
+  category: Spot
   team: Web Applications Development Team
+  citation: |
+    366 SPOT Award
+    Presented to
+    Carlos Balacuit
+    In Recognition of
+    Customer Satisfaction
+    Significant Effort to Complete
+    Assignments
+    &
+    Quality of Work Product
+    August 1, 2003
   amount: 100.0
+  signed:
+    - name: Lonnly Ching
+      role: Supervisor
+      office: Web Systems Applications Group
   apropos: { $ref: definitions#/apropos/2 }
 
 - dated: 2003-01-01
