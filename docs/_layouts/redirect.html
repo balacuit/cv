@@ -3,6 +3,37 @@
 <meta charset="utf-8" />
 <title>{{ page.title }}</title>
 <meta http-equiv="refresh" content="{{ page.redirect_secs | default: 3 }}; url={{ page.redirect_url | default: http://github.com }}">
-</head>
-<body><h1>{{ page.title }}</h1>Redirecting in {{ page.redirect_secs }} seconds to <a href="{{ page.redirect_url }}">{{ page.redirect_url }}</a>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  float:left;
+  margin: 20px;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+body {
+ background-color: #FFF;
+}
+</style></head>
+<body>
+<div class="loader"></div><h1>{{page.title}}</h1>
+<div>Redirecting in {{ page.redirect_secs }} seconds<br/> 
+to <a href="{{ page.redirect_url }}">{{ page.redirect_url }}</a>
+</div>
 </body></html>
